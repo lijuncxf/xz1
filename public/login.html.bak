@@ -1,0 +1,12 @@
+<h1>请登录</h1>
+<!--
+  form 表单标签，用于提交
+  method 设置请求的方法 post/get
+  action 设置请求的url
+  name 设置每条数据的名称
+-->
+<form method="post" action="/mylogin">
+用户：<input name="uname" type="text"><br>
+密码：<input name="upwd"  type="text"><br>
+<input type="submit">
+</form>
